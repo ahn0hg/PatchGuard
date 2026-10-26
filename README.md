@@ -28,9 +28,11 @@
    ollama run qwen2.5-coder:1.5b
 ```
 
+
 2. 필요 패키지 설치:
    ```bash
    pip install streamlit requests
+
    
 3. 앱 실행:
    ```bash
