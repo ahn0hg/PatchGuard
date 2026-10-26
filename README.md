@@ -20,13 +20,14 @@
 | **`codellama:7b`** | 약 3.8 GB (권장 VRAM 6GB) | **미흡** (기초) | **비추천** | 메타 코드 모델로 영어 프롬프트 위주 동작, 다국어 지침 처리 미흡 |
 | **`llama3:8b`** | 약 4.7 GB (권장 VRAM 8GB) | **지원** (우수) | **비추천 (오탐 다수)** | 일반 자연어 챗 모델로 시큐어 코딩 전용이 아니며 취약점 분석 시 오탐(False Positive) 빈도 높음 |
 
-   ```bash
+```bash
    # [권장] 기본 보안 진단 모델 다운로드 및 실행
    ollama run qwen2.5-coder:7b
 
    # [저사양] 경량 모델 다운로드 및 실행
    ollama run qwen2.5-coder:1.5b
-   
+```
+
 2. 필요 패키지 설치:
    ```bash
    pip install streamlit requests
